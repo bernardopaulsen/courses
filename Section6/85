@@ -1,0 +1,9 @@
+"""
+Bernardo Paulsen
+
+Exercise from class 85 of section 6
+from Learn Complete Python In Simple Way.
+"""
+
+for x in range(10):
+print('Hello, welcome to my loop')
