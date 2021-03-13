@@ -5,3 +5,5 @@ git log --oneline --graph --decorate
 git log -- <file>
 
 git log --follow -- <file>
+
+git show <commitId>
