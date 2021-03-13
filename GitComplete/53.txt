@@ -1,0 +1,2 @@
+# create branch and switch to it
+git checkout -b <mybrach>
