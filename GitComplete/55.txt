@@ -1,0 +1,1 @@
+how to make changes simultaneously in two branches and then merge them
