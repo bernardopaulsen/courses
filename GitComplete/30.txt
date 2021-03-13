@@ -1,0 +1,2 @@
+# get git to see the rename and not take it as a deletion and a creation of different files
+git mv <file> <file>
