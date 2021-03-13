@@ -1,0 +1,7 @@
+git branch <mybranch>
+
+git checkout <mybranch>
+
+git branch m <mybranch> <mybranch>
+
+git branch d <mybranch>
