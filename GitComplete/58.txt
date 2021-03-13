@@ -1,0 +1,9 @@
+# when in other branch
+git rebase master
+
+# to abort rebase
+git rebase --abort
+
+# continue rebase after resolving conflicts
+git rebase --continue
+
