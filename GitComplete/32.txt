@@ -1,0 +1,7 @@
+git log
+
+git log --oneline --graph --decorate
+
+git log -- <file>
+
+git log --follow -- <file>
