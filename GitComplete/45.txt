@@ -1,0 +1,4 @@
+#see difference between staged and not staged files
+git diff
+
+# a little more text
