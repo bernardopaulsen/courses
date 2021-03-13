@@ -1,0 +1,8 @@
+# annotated tag
+git tag -a <myTag>
+
+# amend commit message
+git commit --amend
+
+# associate tag with id
+git tag -a <myTag> <commitId>

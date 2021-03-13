@@ -1,0 +1,8 @@
+# create tag
+git tag <myTag>
+
+# list tags
+git tag --list
+
+
+git show <myTag>

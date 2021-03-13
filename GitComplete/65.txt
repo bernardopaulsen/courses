@@ -1,2 +1,5 @@
 # include untracked files
 git stash -u
+
+# apply and drop
+git stash pop

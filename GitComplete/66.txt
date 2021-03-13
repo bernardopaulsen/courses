@@ -1,0 +1,20 @@
+# save stash with message
+git stash save "<message>"
+
+# list all stashes
+git stash list
+
+# view a stash
+git stash show stash@{X}
+
+# apply specific stash
+git stash apply stash@{X}
+
+# drop specific stash
+git stash frop stash@{X}
+
+# get rid of all stashes
+git stash clear
+
+# stash to other branch (after (example) git stash -u)
+git stash branch <newbranch>

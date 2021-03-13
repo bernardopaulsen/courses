@@ -1,0 +1,10 @@
+# Working with tags on github
+
+# specific tag
+git push origin <myTag>
+
+# all tags
+git push origin master --tags
+
+# delete tag
+git puhs origin :<myTag>

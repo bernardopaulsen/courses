@@ -1,0 +1,5 @@
+# Updating tags
+
+git tag -a <myTag> -f <commitId>
+
+
