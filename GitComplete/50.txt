@@ -1,0 +1,4 @@
+# compare local and remote repositories
+
+git diff master origin/master
+git diff origin/master master
