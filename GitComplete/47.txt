@@ -1,0 +1,2 @@
+# compare stage to repository
+git diff --staged HEAD

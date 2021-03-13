@@ -1,0 +1,4 @@
+\# diff for one file
+
+git diff -- <file>
+git diff --staged HEAD -- <file>
