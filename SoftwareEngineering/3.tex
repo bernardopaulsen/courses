@@ -1,0 +1,217 @@
+\section{Requirements and Specifications}
+
+    \subsection{Requirements Definition}
+
+        A way of figuring out the exact specifications of what the software should do.
+
+    \subsection{Requirements vs Specifications}
+    
+        \begin{itemize}
+            \item Requirements
+            \begin{itemize}
+                \item A non-technical definition of something the user requires from the system.
+            \end{itemize}
+            \item Specifications
+            \begin{itemize}
+                \item A technical definition of what is required from the system.
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{Functional vs Non-Functional Requirements}
+
+        \begin{itemize}
+            \item Functional
+            \begin{itemize}
+                \item Requirements and specifications pertaining to the function of the program.
+            \end{itemize}
+            \item Non-functional
+            \begin{itemize}
+                \item Requirements and specifications on what goals should be met.
+            \end{itemize}
+        \end{itemize}
+
+        \begin{itemize}
+            \item Non-functional
+            \begin{itemize}
+                \item Product Requirements
+                \begin{itemize}
+                    \item Mest have of the product itself. Talk about behavior.
+                \end{itemize}
+                \item Organizational Requirements
+                \begin{itemize}
+                    \item Company policies, standards, styles, rules.
+                \end{itemize}
+                \item External Requirements
+                \begin{itemize}
+                    \item External laws, regulations, trends etc.
+                \end{itemize}
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM Model Introduction}
+
+        \begin{itemize}
+            \item World
+            \begin{itemize}
+                \item The world assumptions which are used to develop the system.
+            \end{itemize}
+            \item Requirements
+            \begin{itemize}
+                \item Defining the problem at hand in terms of a user of the system.
+            \end{itemize}
+            \item Specifications
+            \begin{itemize}
+                \item Defining the technical requirements of the sysmte. Here we are linking together the idea of the solution, to the system itself.
+            \end{itemize}
+            \item program
+            \begin{itemize}
+                \item The program and code itself.
+            \end{itemize}
+            \item Machine
+            \begin{itemize}
+                \item Hardware specifications.
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM Visual Model}
+
+        \begin{itemize}
+            \item Environment
+            \begin{itemize}
+                \item World
+                \item Requirements
+            \end{itemize}
+            \item Interface
+            \begin{itemize}
+                \item Specifications
+            \end{itemize}
+            \item system
+            \begin{itemize}
+                \item Program
+                \item Machine
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM Variables}
+
+        \begin{itemize}
+            \item Environment
+            \begin{itemize}
+                \item Eh
+                \begin{itemize}
+                    \item Elements of the environment which are hidden from the system.
+                \end{itemize}
+            \end{itemize}
+            \item Interface
+            \begin{itemize}
+                \item Ev
+                \begin{itemize}
+                    \item Elements of the environment which are visible from the system.
+                \end{itemize}
+                \item Sv
+                \begin{itemize}
+                    \item Elements of the system which are visible from the environment.
+                \end{itemize}
+            \end{itemize}
+            \item System
+            \begin{itemize}
+                \item Sh
+                \begin{itemize}
+                    \item Eelements from the system which are hidden from the environment.
+                \end{itemize}
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM - World Example}
+
+        Example: photo machine.
+
+        \begin{itemize}
+            \item World Assumptions
+            \begin{itemize}
+                \item There will be readily available electricity.
+                \item There will be internet.
+                \item In a normal, controlled, temperature.
+                \item Peoplewill have standardized photo formats to print.
+                \item Poeple will be able to read the prompts and tutorial.
+                \item Sotires will re-fill the materials frequently.
+                \item People will have debit cards that wirk with standard debit card tech.
+                \item Debit/credit cards are widely used.
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM - Requirements Example}
+
+        Example: photo machine.
+
+        \begin{itemize}
+            \item Requirements
+            \begin{itemize}
+                \item A user can connet a smartphone to the system.
+                \item The user can edit photos.
+                \item The smartphone can transfer pictures over.
+                \item The photos can be printed out of the macinhe.
+                \item The kiosk can collect money.
+                \item The user can change the language.
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{WRSPM - Specifications Example}
+
+    Example: photo machine.
+
+    \begin{itemize}
+        \item Specifications
+        \begin{itemize}
+            \item The system will have Bluetooth technology so a smartphone can connect.
+            \item The machine will run off a standard NA power outlet.
+            \item A proper bluetooth tranfer protocol will be installed to make the transaction secure.
+            \item The system will have and editing suite for manipulating photo data.
+            \item The system will use encryption and chip technology to contact financial servers.
+            \item The system will have a standard printing device for printing photos.
+        \end{itemize}
+    \end{itemize}
+
+    \subsection{Requirements Example}
+
+    We have already built Chess app. Wewant to monetize this app to start making money. 
+
+    \begin{enumerate}
+        \item What steps should we take?
+        \item How do we define this problem?
+        \item What will benefit both the client and the users?
+    \end{enumerate}
+
+    \begin{itemize}
+        \item World Assumptions
+        \begin{itemize}
+            \item There is a way to pay on smartphones.
+            \item There are ways to make money from an app.
+            \item The app is extendable.
+            \item There will be an ability to contact the internet and the financial institution.
+            \item The transaction canbe made secure enough.
+            \item The phone will have the processing power to process the request.
+            \item Different currencies will be able to be accepted.
+            \item It's legal to accept payment over a phone.
+        \end{itemize}
+        \item Requirements
+        \begin{itemize}
+            \item The pro feature will remove ads for the user.
+            \item The feature must accept paument from the user.
+            \item The feature must provide pro features upon successful transaction.
+            \item The feature must complete transactions is a secure manner.
+            \item The feature will revoke pro feautures once a subscription becomes invalid.
+            \item The feature will provide a cancel buttun within the app.
+            \item The feature will extend off existing database.
+            \item The feature musn.t add more than 5MB to overall download size.
+            \item The feature must complete the transaction in a timely fashion.
+        \end{itemize}
+        \item Specifications
+        \begin{itemize}
+            \item The feature will be coded in Java, the existing app's language.
+            \item The feature will use the Android Play store for it's transactions.
+            \item The feature will check for active subscription daily using Google's provided API.
+            \item The feature will turn off AdMob once subscription key becomes invalid.
+            \item The transaction must take no longer than 500ms to complete.
+        \end{itemize}
+    \end{itemize}
