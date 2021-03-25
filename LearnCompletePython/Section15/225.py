@@ -5,9 +5,16 @@ Exercise from class 225 from section 15
 from Learn Complete Python In Simple Way.
 """
 
-# Anonymus
+# Anonymus fucntions
+# - nameless function
+# - instant use (one time usage)
 
 
-a = lambda x: x*x
+# normal function
+def square(x):
+    return x*x
 
-print(a(2))
+# anonymus function
+sq = lambda x: x*x
+
+print(sq(2))
