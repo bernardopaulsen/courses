@@ -1,0 +1,3 @@
+14/06/2021:CRITICAL:demologer:This is a critical message.
+14/06/2021:ERROR:demologer:This is an error message.
+14/06/2021:WARNING:demologer:This is a warning message.
